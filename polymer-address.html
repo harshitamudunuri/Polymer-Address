@@ -15,14 +15,14 @@
                 display: block
             }
 
-            .reg-right{
+            .address-container{
               width:100%;              
               float:left;              
               padding:0 20px;
               box-sizing: border-box;
               }
 
-              .bank-details paper-input,.bank-details paper-dropdown-menu,.reg-left paper-input,.reg-right paper-input,.reg-left paper-dropdown-menu,.reg-right paper-dropdown-menu{
+              .address-container paper-input,.address-container paper-dropdown-menu{
              width:48%;
              float:left;
              margin:0 1% 0 ; 
@@ -33,7 +33,7 @@
      
             }
         </style>
-<div class="reg-right">
+<div class="address-container">
     <section>
       <paper-input name="Address1" label="Address1" id="Resi-Address1" value={{addressdetails.address1::input}} required auto-validate error-message="Address required"></paper-input>
       <paper-input name="Address2" label="Address1" id="Resi-Address2" value={{addressdetails.address2::input}}></paper-input>
